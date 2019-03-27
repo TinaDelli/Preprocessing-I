@@ -159,9 +159,10 @@ body {
 }
 /*****Header *****/
 header {
-  height: 800px;
-  background: url('../img/hero.png');
+  height: 100%;
+  background: url('../img/hero.png') center center;
   background-size: cover;
+  position: relative;
 }
 h1 {
   font-family: 'Lora', serif;
@@ -204,7 +205,8 @@ header h2 span {
   font-size: 36px;
   padding-left: 50px;
 }
-#about .full-width p {
+#about .full-width p,
+#about .full-width ul {
   font-size: 1.8rem;
   color: #7f7f7f;
   line-height: 4rem;
